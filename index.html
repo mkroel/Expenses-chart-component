@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="images/favicon-32x32.png" rel="icon">
+        <title>expenses chart</title>
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <div class="currentBalance">
+                    <p>My balance</p>
+                    <p id="money1">$921.48</p>
+                </div>
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div id="content">
+                <h1>Spending - Last 7 days</h1>
+                <div id="chart">
+                    <div id="mon" data-title="$17.45">
+                        <p>mon</p>
+                    </div>
+                    <div id="tue" data-title="$34.91">
+                        <p>tue</p>
+                    </div>
+                    <div id="wed" class="highest" data-title="$52.36">
+                        <p>wed</p>
+                    </div>
+                    <div id="thu" data-title="$31.07">
+                        <p>thu</p>
+                    </div>
+                    <div id="fri" data-title="$23.37">
+                        <p>fri</p>
+                    </div>
+                    <div id="sat" data-title="$43.28">
+                        <p>sat</p>
+                    </div>
+                    <div id="sun" data-title="$25.48">
+                        <p>sun</p>
+                    </div>
+                </div>
+                <hr>
+                <div id="total">
+                    <div id="amount">
+                        <p>Total this month</p>
+                        <p id="money2">
+                            $478.33
+                        </p>
+                    </div>
+                    <div id="lastMonth">
+                        <p class="percentage">
+                            +2.4%
+                        </p>
+                        <p>from last month</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
